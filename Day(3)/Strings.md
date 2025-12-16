@@ -163,5 +163,45 @@ print("She said, \"Python is fun!\"")
 
 - Strings are **immutable** (cannot be changed after creation).  
 - You can use **indexing**, **slicing**, and **methods** to manipulate strings.  
-- For heavy text processing, use the **`string`** and **`re`** (regex) modules.  
+- For heavy text processing, use the **`string`** and **`re`** (regex) modules.
+
+# Strings
+- This is used to store anything in python, literally anything
+that are available on your keyboard.
+You have to use quotes to store anything and it will be
+considered as string. You can use double Quotes (“”) or
+single quotes (‘’) to store both works same.
+
+## Strings and type conversion
+### How Strings work
+
+- You know what strings are but you must also know string
+take more space than other data types like int, float etc
+- This happens because String stores every character with
+their own Unicode
+- **Unicode** is a universal character encoding standard that
+assigns a unique number (code point) to every character,
+regardless of language
+- Like “A” unicode is 65 and “ ” this emoji unicode is 128522,
+you can check them by using ord() function in python and
+convert them back using chr() function.
+
+### String Indexing
+- You must have thought there are so many characters in a
+string but can you access everyone.m
+- Yes thats possible using indexing. Indexing starts from 0 and
+goes till the number of characters you have.
+- eg - a = “Hello” print(a[0]) ==> output - “H
+There is negative indexing as well and it starts from -1, but
+the starting position is from the back of the string
+eg - a = “Hello” print(a[-1]) ==> output - “o”
+
+## String Slicing
+- You know how to access characters in string. But there are
+slicing option as well.)
+- Slicing means cutting out a slice from string and this is also
+done using index values
+- eg :->  - a = “hello” a[1:4:1] ==> output “ell:
+- 3 So here we have start , stop and steps position and keep a
+note if we use stop at 4 it will slice till 3 only.
 

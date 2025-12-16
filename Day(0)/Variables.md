@@ -25,10 +25,15 @@ They are **memory placeholders** used to store values and data types that your p
 ---
 
 ### ❌ Invalid Variable Names:
-
 - `1name`  
 - `user name`  
 - `@value`
 
+---
+
+### You can write variable in 3 ways 
+* Camel Case -> sompaBhui
+* Pascal Case -> SompaBhui
+* Snake Case -> sompa_bhui
 
 

@@ -276,7 +276,7 @@ class Student:
         self.roll_no = roll_no
 
 s1 = Student("Sompa", 101)
-print(s1.name)      # Amit
+print(s1.name)      # Sompa
 print(s1.roll_no)   # 101
 ```
 ## 🔧 What are User-Defined Data Types?
@@ -295,4 +295,3 @@ Jab aap real-world cheezein (jaise: **Student**, **Car**, **BankAccount**) ko re
 | `function`  | `def` keyword se               | User-defined function  |
 | `module`    | `.py` file ke form mein        | Custom utility         |
 | `package`   | Folder with `__init__.py` file | Large Python projects  |
-

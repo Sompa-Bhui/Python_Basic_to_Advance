@@ -55,4 +55,26 @@ print(num_int + 5)        # 105
   bool(0)   # False
   bool(5)   # True
   ```
-  
+
+  ## Type conversion concepts
+  - We cannot convert a character to a int()
+  - bool() converter turns everything to True and False
+  - There are truthy values and Falsy values, and there are only
+
+  ## Truthy and Falsy Values
+
+There are **truthy** values and **falsy** values.  
+There are only **7 falsy values**, which means only these values are converted to `false`;  
+**all other values are converted to `true`.**
+
+### Falsy Values
+- `0`
+- `0.0`
+- `False`
+- `""` (empty string)
+- `[]` (empty list)
+- `{}` (empty dictionary)
+- `None`
+
+> ✅ All values **other than these** are considered **truthy**.
+
